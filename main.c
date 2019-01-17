@@ -6,7 +6,7 @@
 /*   By: ccumming <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:15:58 by ccumming          #+#    #+#             */
-/*   Updated: 2019/01/15 18:52:12 by ccumming         ###   ########.fr       */
+/*   Updated: 2019/01/17 12:21:32 by ccumming         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,9 @@ int		main(void)
 	// here we need to call our func GNL
 	get_next_line(fd, &line);
 	ft_putendl(line);
-
+	get_next_line(fd, &line);
+	ft_putendl(line);
+	get_next_line(fd, &line);
+	ft_putendl(line);
 	return (0);
 }
